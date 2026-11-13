@@ -1,0 +1,30 @@
+{
+  "name": "sweph-core",
+  "version": "1.0.0",
+  "description": "Minimal HTTP service exposing raw Swiss Ephemeris computations (positions, houses, calendar, eclipses) on localhost.",
+  "license": "AGPL-3.0-only",
+  "private": true,
+  "type": "commonjs",
+  "main": "server.cjs",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node scripts/test.cjs"
+  },
+  "dependencies": {
+    "sweph": "2.10.3-b-1"
+  },
+  "devDependencies": {
+    "vitest": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgidimov1/sweph-core.git"
+  },
+  "homepage": "https://github.com/georgidimov1/sweph-core#readme",
+  "bugs": {
+    "url": "https://github.com/georgidimov1/sweph-core/issues"
+  }
+}

@@ -1,0 +1,23 @@
+node_modules/
+*.log
+.env*
+
+# Swiss Ephemeris data files: not part of this repository (EPHE_PATH, see README)
+*.se1
+
+# Local data, results, credentials and editor files
+ephe/
+coverage/
+.audit/
+*.pem
+*.key
+*.p12
+*.pfx
+*.bak
+*.tmp
+*.swp
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
